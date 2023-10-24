@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(
+      250deg,
+      rgb(255, 188, 188),
+      rgb(183, 244, 255),
+      rgb(255, 232, 232),
+      rgb(135, 237, 255),
+      rgb(235, 206, 255),
+      rgb(184, 220, 255),
+      rgb(182, 237, 255)
+    );
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 4000px 4000px;
+    animation: montaj 130s ease-in-out infinite;
+  }
+  
+  @keyframes montaj {
+    0% {
+      background-position: 0%;
+    }
+    50% {
+      background-position: 100%;
+    }
+    100% {
+      background-position: 0%;
+      
+    }
+  }
+  
+.umumi{
+width: 1000px;
+height: 800px;
+display: flex;
+flex-direction: column;
+margin-top: 220px;
+margin-left: 400px;
+}
+button{
+    width: 800px;
+    height: 85px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: 10px;
+    text-align: start;
+    font-size: 20px;
+    padding-left: 20px;
+    color: rgb(83, 83, 83);
+    &:hover{
+        background-color: lightblue;
+        opacity: 0.5;
+        border: 2px solid blue;
+        color: white;
+      
+
+    }
+
+}
+.option{
+    width: 800px;
+    height: 120px;
+  border: 1px solid grey;
+  background-color: white;
+   
+}
+/* .option.open{
+display: flex;
+} */
